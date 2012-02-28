@@ -1,3 +1,9 @@
+/**
+ * Allow the use of a CSS3 selector such as "html:not(.mw) " to define an interface customization which may be disable/enabled by one click
+ *
+ * @see: [[User:Helder.wiki/Tools/Global.css]] for examples
+ * @traking: [[Special:GlobalUsage/User:Helder.wiki/Tools/CustomInterface.js]] ([[File:User:Helder.wiki/Tools/CustomInterface.js]])
+ */
 $(function () {
 	var label = {
 		'true': 'Restaurar a interface',
